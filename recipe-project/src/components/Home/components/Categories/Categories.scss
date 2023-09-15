@@ -1,0 +1,27 @@
+.Categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  h2 {
+    margin: 20px;
+    font-family: "Libre Franklin", sans-serif;
+  }
+  .categories-container {
+    width: 100%;
+    max-height: 600px;
+    overflow: scroll;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    #active{
+      cursor: pointer;
+      transform: scale(1.04);
+      background-color: #2b80b5;
+      color: white;
+      border-color: #2b80b5;
+    }
+  }
+
+}

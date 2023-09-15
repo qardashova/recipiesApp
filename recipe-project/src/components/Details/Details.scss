@@ -1,0 +1,41 @@
+.Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .page-title{
+        margin: 20px 0;
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        h1{
+            // text-align: center;
+            margin-left: 40%;
+            font-family: "Libre Franklin", sans-serif;
+            color: #2b80b5;
+        }
+    }
+    .details-container{
+        width: 90%;
+.ingredients{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin: 20px 0;
+    .indredient{
+        width: 300px;
+        border: 1px solid #2b80b5;
+        padding: 15px;
+        border-radius: 7px;
+        p{
+            span{
+                color: orangered;
+            }
+        }
+    }
+}
+    }
+}

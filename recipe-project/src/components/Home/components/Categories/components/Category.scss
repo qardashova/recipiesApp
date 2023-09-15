@@ -1,0 +1,17 @@
+.Category{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #167D8A;
+    border-radius: 4px;
+    transition: background-color 0.2s ease,color 0.2s ease;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.04);
+        background-color: #2b80b5;
+        color: white;
+        border-color: #2b80b5;
+    }
+}
