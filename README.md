@@ -1,0 +1,2 @@
+# recipiesApp
+RecipeApp is a web application that allows users to discover and explore a vast collection of recipes. It leverages the Spoonacular API to provide a rich culinary experience. You can search for recipes by type, sort them, apply various filters, and view detailed information about each recipe. This project was built using the Vite project, SCSS for styling, and Material UI for user interface components.
